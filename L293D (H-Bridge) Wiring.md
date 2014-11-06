@@ -15,6 +15,8 @@ The INPUT pins control the direction on the motor. If one is HIGH and the other 
 direction, and if you swap the HIGH/LOW the motor will turn the other way. If they are both HIGH or both LOW 
 the motor will stop.
 
+<h3>Example Code</h3>
+
 // Set up the pins with variable names 
 
 // Left motor  
