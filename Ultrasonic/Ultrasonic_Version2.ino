@@ -16,10 +16,8 @@ void setup()
 
 void loop()
 {
+
   dist();
-  Serial.print(distance);
-  Serial.print("cm");
-  Serial.println(); 
   
 }
 
@@ -38,5 +36,8 @@ int dist()
  
  //Calculate the distance (in cm) based on the speed of sound.
  distance = duration/58.2;
+ Serial.print(distance);
+ Serial.print("cm");
+ Serial.println(); 
  return(distance);
 }
