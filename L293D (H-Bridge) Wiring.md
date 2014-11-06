@@ -15,7 +15,7 @@ The INPUT pins control the direction on the motor. If one is HIGH and the other 
 direction, and if you swap the HIGH/LOW the motor will turn the other way. If they are both HIGH or both LOW 
 the motor will stop.
 
-// Set up the pins with variable names  
+// Set up the pins with variable names 
 
 // Left motor  
 const int enable1=3; // const=constant, int=integer  
@@ -28,7 +28,7 @@ const int input3=6;
 const int input4=7;
 
 
-void setup() {
+<b>void setup()</b> {
 
   //intialize the input pins as digital outputs  
   // the enable pins will use analogWrite, so they don't need to be intialized
@@ -40,7 +40,7 @@ void setup() {
   
 }
 
-void loop(){
+<b>void loop()</b>{
 
 <b>Sample code to make the left motor turn at full speed:</b>  
 analogWrite (enable1, 255); //Spins the motor  
